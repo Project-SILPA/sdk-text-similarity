@@ -21,7 +21,7 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    
+
     lintOptions {
         abortOnError true
     }
@@ -37,3 +37,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+// Uncomment following code while updating on maven central
+//
+// apply from: '../gradle-mvn-push.gradle'

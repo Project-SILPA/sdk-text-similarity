@@ -1,4 +1,4 @@
-package org.silpa.textsimilarity;
+package org.libindic.textsimilarity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
